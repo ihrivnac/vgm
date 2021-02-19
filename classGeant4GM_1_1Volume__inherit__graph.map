@@ -1,0 +1,5 @@
+<map id="Geant4GM::Volume" name="Geant4GM::Volume">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 volume." alt="" coords="9,155,143,181"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VVolume.html" title="The abstract base class for volumes." alt="" coords="5,80,147,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1IVolume.html" title="The VGM interface to volumes." alt="" coords="23,5,129,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="VGM::IHype" name="VGM::IHype">
+<area shape="rect" id="node1" title="The VGM interface to hyperboloid solids." alt="" coords="89,80,181,107"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VHype.html" title="The ABC for hyperboloid solids." alt="" coords="72,155,199,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="90,5,181,32"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Hype.html" title="VGM implementation for Geant4 hyperboloid solid." alt="" coords="5,229,127,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Hype.html" title="VGM implementation for Root hyperboloid solid." alt="" coords="151,229,258,256"/>
+</map>

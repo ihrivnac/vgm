@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classVGM_1_1IIsotope.html" title="The VGM interface to elements." alt="" coords="5,31,111,57"/>
+<area shape="rect" id="node2" href="$classGeant4GM_1_1Isotope.html" title="VGM implementation for Geant4 Isotope." alt="" coords="159,5,293,32"/>
+<area shape="rect" id="node3" href="$classRootGM_1_1Isotope.html" title="VGM implementation for Root isotope." alt="" coords="167,56,285,83"/>
+</map>

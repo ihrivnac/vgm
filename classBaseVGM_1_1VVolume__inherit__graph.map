@@ -1,0 +1,6 @@
+<map id="BaseVGM::VVolume" name="BaseVGM::VVolume">
+<area shape="rect" id="node1" title="The abstract base class for volumes." alt="" coords="78,80,219,107"/>
+<area shape="rect" id="node3" href="$classGeant4GM_1_1Volume.html" title="VGM implementation for Geant4 volume." alt="" coords="5,155,140,181"/>
+<area shape="rect" id="node4" href="$classRootGM_1_1Volume.html" title="VGM implementation for Root volume." alt="" coords="165,155,285,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IVolume.html" title="The VGM interface to volumes." alt="" coords="95,5,202,32"/>
+</map>

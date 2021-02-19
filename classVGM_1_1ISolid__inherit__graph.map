@@ -1,0 +1,51 @@
+<map id="VGM::ISolid" name="VGM::ISolid">
+<area shape="rect" id="node1" title="The VGM interface to solids." alt="" coords="5,588,96,615"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IArb8.html" title="The VGM interface to Arb8 solids." alt="" coords="179,56,268,83"/>
+<area shape="rect" id="node6" href="$classVGM_1_1IBooleanSolid.html" title="The VGM interface to Boolean solids." alt="" coords="154,107,293,133"/>
+<area shape="rect" id="node10" href="$classVGM_1_1IBox.html" title="The VGM interface to box solids." alt="" coords="181,157,265,184"/>
+<area shape="rect" id="node12" href="$classVGM_1_1ICons.html" title="The VGM interface to cons solids." alt="" coords="177,208,269,235"/>
+<area shape="rect" id="node14" href="$classVGM_1_1ICtubs.html" title="The VGM interface to cut tubs solids." alt="" coords="175,259,271,285"/>
+<area shape="rect" id="node16" href="$classVGM_1_1IDisplacedSolid.html" title="The VGM interface to displaced solids." alt="" coords="149,309,297,336"/>
+<area shape="rect" id="node18" href="$classVGM_1_1IEllipsoid.html" title="The VGM interface to ellipsoid solids." alt="" coords="168,360,279,387"/>
+<area shape="rect" id="node20" href="$classVGM_1_1IEllipticalTube.html" title="The VGM interface to elliptical tube solids." alt="" coords="154,411,293,437"/>
+<area shape="rect" id="node22" href="$classVGM_1_1IExtrudedSolid.html" title="The VGM interface to extruded solids." alt="" coords="153,461,294,488"/>
+<area shape="rect" id="node24" href="$classVGM_1_1IHype.html" title="The VGM interface to hyperboloid solids." alt="" coords="177,512,269,539"/>
+<area shape="rect" id="node26" href="$classVGM_1_1IMultiUnion.html" title="The VGM interface to Boolean solids." alt="" coords="161,563,285,589"/>
+<area shape="rect" id="node28" href="$classVGM_1_1IPara.html" title="The VGM interface to para solids." alt="" coords="179,613,268,640"/>
+<area shape="rect" id="node30" href="$classVGM_1_1IParaboloid.html" title="The VGM interface to paraboloid solids." alt="" coords="162,664,285,691"/>
+<area shape="rect" id="node32" href="$classVGM_1_1IPolycone.html" title="The VGM interface to polycone solids." alt="" coords="166,715,281,741"/>
+<area shape="rect" id="node34" href="$classVGM_1_1IPolyhedra.html" title="The VGM interface to polyhedra solids." alt="" coords="164,765,283,792"/>
+<area shape="rect" id="node36" href="$classVGM_1_1IScaledSolid.html" title="The VGM interface to Boolean solids." alt="" coords="158,816,289,843"/>
+<area shape="rect" id="node38" href="$classVGM_1_1ISphere.html" title="The VGM interface to sphere solids." alt="" coords="172,867,275,893"/>
+<area shape="rect" id="node40" href="$classVGM_1_1ITessellatedSolid.html" title="The VGM interface to extruded solids." alt="" coords="144,917,303,944"/>
+<area shape="rect" id="node42" href="$classVGM_1_1ITorus.html" title="The VGM interface to torus solids." alt="" coords="176,968,271,995"/>
+<area shape="rect" id="node44" href="$classVGM_1_1ITrap.html" title="The VGM interface to trap solids." alt="" coords="179,1019,267,1045"/>
+<area shape="rect" id="node46" href="$classVGM_1_1ITrd.html" title="The VGM interface to trd solids." alt="" coords="183,1069,264,1096"/>
+<area shape="rect" id="node48" href="$classVGM_1_1ITubs.html" title="The VGM interface to tubs solids." alt="" coords="178,1120,269,1147"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VArb8.html" title="The ABC for Arb8 solids." alt="" coords="385,56,509,83"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Arb8.html" title="VGM implementation for Geant4 Arb8 solid, the shape is implemented using G4TessellatedSolid." alt="" coords="616,5,735,32"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Arb8.html" title="VGM implementation for Root Arb8 solid." alt="" coords="624,56,727,83"/>
+<area shape="rect" id="node7" href="$classBaseVGM_1_1VBooleanSolid.html" title="The ABC for Boolean solids." alt="" coords="361,107,534,133"/>
+<area shape="rect" id="node8" href="$classGeant4GM_1_1BooleanSolid.html" title="VGM implementation for Geant4 Boolean solid." alt="" coords="592,107,759,133"/>
+<area shape="rect" id="node9" href="$classRootGM_1_1BooleanSolid.html" title="VGM implementation for Root Boolean solid." alt="" coords="599,157,751,184"/>
+<area shape="rect" id="node11" href="$classBaseVGM_1_1VBox.html" title="The ABC for box solids." alt="" coords="388,157,507,184"/>
+<area shape="rect" id="node13" href="$classBaseVGM_1_1VCons.html" title="The ABC for cons solids." alt="" coords="384,208,511,235"/>
+<area shape="rect" id="node15" href="$classBaseVGM_1_1VCtubs.html" title="The ABC for cut tubs solids." alt="" coords="382,259,513,285"/>
+<area shape="rect" id="node17" href="$classBaseVGM_1_1VDisplacedSolid.html" title="The ABC for displaced solids." alt="" coords="356,309,539,336"/>
+<area shape="rect" id="node19" href="$classBaseVGM_1_1VEllipsoid.html" title="The ABC for ellipsoid solids." alt="" coords="375,360,520,387"/>
+<area shape="rect" id="node21" href="$classBaseVGM_1_1VEllipticalTube.html" title="The ABC for elliptical tube solids." alt="" coords="360,411,535,437"/>
+<area shape="rect" id="node23" href="$classBaseVGM_1_1VExtrudedSolid.html" title="The ABC for xtru solids." alt="" coords="359,461,535,488"/>
+<area shape="rect" id="node25" href="$classBaseVGM_1_1VHype.html" title="The ABC for hyperboloid solids." alt="" coords="384,512,511,539"/>
+<area shape="rect" id="node27" href="$classBaseVGM_1_1VMultiUnion.html" title="The ABC for Boolean solids." alt="" coords="368,563,527,589"/>
+<area shape="rect" id="node29" href="$classBaseVGM_1_1VPara.html" title="The ABC for para solids." alt="" coords="385,613,509,640"/>
+<area shape="rect" id="node31" href="$classBaseVGM_1_1VParaboloid.html" title="The ABC for paraboloid solids." alt="" coords="368,664,527,691"/>
+<area shape="rect" id="node33" href="$classBaseVGM_1_1VPolycone.html" title="The ABC for polycone solids." alt="" coords="372,715,523,741"/>
+<area shape="rect" id="node35" href="$classBaseVGM_1_1VPolyhedra.html" title="The ABC for polyhedra solids." alt="" coords="370,765,525,792"/>
+<area shape="rect" id="node37" href="$classBaseVGM_1_1VScaledSolid.html" title="The ABC for Scaled solids." alt="" coords="364,816,531,843"/>
+<area shape="rect" id="node39" href="$classBaseVGM_1_1VSphere.html" title="The ABC for sphere solids." alt="" coords="378,867,517,893"/>
+<area shape="rect" id="node41" href="$classBaseVGM_1_1VTessellatedSolid.html" title="The ABC for tessellated solid." alt="" coords="351,917,544,944"/>
+<area shape="rect" id="node43" href="$classBaseVGM_1_1VTorus.html" title="The ABC for torus solids." alt="" coords="382,968,513,995"/>
+<area shape="rect" id="node45" href="$classBaseVGM_1_1VTrap.html" title="The ABC for trap solids." alt="" coords="386,1019,509,1045"/>
+<area shape="rect" id="node47" href="$classBaseVGM_1_1VTrd.html" title="The ABC for trd solids." alt="" coords="389,1069,505,1096"/>
+<area shape="rect" id="node49" href="$classBaseVGM_1_1VTubs.html" title="The ABC for tubs solids." alt="" coords="384,1120,511,1147"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="VGM::IEllipsoid" name="VGM::IEllipsoid">
+<area shape="rect" id="node1" title="The VGM interface to ellipsoid solids." alt="" coords="97,80,207,107"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VEllipsoid.html" title="The ABC for ellipsoid solids." alt="" coords="79,155,225,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="107,5,197,32"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Ellipsoid.html" title="VGM implementation for Geant4 ellipsoid solid." alt="" coords="5,229,144,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Ellipsoid.html" title="VGM implementation for Root ellipsoid solid." alt="" coords="169,229,293,256"/>
+</map>

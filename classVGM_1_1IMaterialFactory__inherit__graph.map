@@ -1,0 +1,6 @@
+<map id="VGM::IMaterialFactory" name="VGM::IMaterialFactory">
+<area shape="rect" id="node1" title="The VGM interface to material factory providing functions for material conversions." alt="" coords="119,5,269,32"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VMaterialFactory.html" title="The abstract base class to material factory." alt="" coords="101,80,287,107"/>
+<area shape="rect" id="node3" href="$classGeant4GM_1_1MaterialFactory.html" title="VGM material factory for Geant4." alt="" coords="5,155,185,181"/>
+<area shape="rect" id="node4" href="$classRootGM_1_1MaterialFactory.html" title="VGM material factory for Root." alt="" coords="210,155,375,181"/>
+</map>

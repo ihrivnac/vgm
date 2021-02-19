@@ -1,0 +1,7 @@
+<map id="VGM::ITrd" name="VGM::ITrd">
+<area shape="rect" id="node1" title="The VGM interface to trd solids." alt="" coords="83,80,164,107"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VTrd.html" title="The ABC for trd solids." alt="" coords="65,155,181,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="78,5,169,32"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Trd.html" title="VGM implementation for Geant4 trd solid." alt="" coords="5,229,116,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Trd.html" title="VGM implementation for Root trd solid." alt="" coords="140,229,235,256"/>
+</map>

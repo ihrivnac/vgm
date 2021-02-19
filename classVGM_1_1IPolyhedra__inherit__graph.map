@@ -1,0 +1,7 @@
+<map id="VGM::IPolyhedra" name="VGM::IPolyhedra">
+<area shape="rect" id="node1" title="The VGM interface to polyhedra solids." alt="" coords="103,80,221,107"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VPolyhedra.html" title="The ABC for polyhedra solids." alt="" coords="85,155,239,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="117,5,207,32"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Polyhedra.html" title="VGM implementation for Geant4 polyhedra solid." alt="" coords="5,229,153,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Polyhedra.html" title="VGM implementation for Root polyhedra solid." alt="" coords="178,229,311,256"/>
+</map>

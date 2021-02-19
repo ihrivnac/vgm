@@ -1,0 +1,7 @@
+<map id="VGM::IPara" name="VGM::IPara">
+<area shape="rect" id="node1" title="The VGM interface to para solids." alt="" coords="87,80,176,107"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VPara.html" title="The ABC for para solids." alt="" coords="69,155,193,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="86,5,177,32"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Para.html" title="VGM implementation for Geant4 para solid." alt="" coords="5,229,124,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Para.html" title="VGM implementation for Root para solid." alt="" coords="148,229,251,256"/>
+</map>

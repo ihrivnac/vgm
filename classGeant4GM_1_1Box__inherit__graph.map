@@ -1,0 +1,6 @@
+<map id="Geant4GM::Box" name="Geant4GM::Box">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 box solid." alt="" coords="8,229,121,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VBox.html" title="The ABC for box solids." alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1IBox.html" title="The VGM interface to box solids." alt="" coords="23,80,107,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="19,5,110,32"/>
+</map>

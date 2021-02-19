@@ -1,0 +1,5 @@
+<map id="VGM::IIsotope" name="VGM::IIsotope">
+<area shape="rect" id="node1" title="The VGM interface to elements." alt="" coords="95,5,200,32"/>
+<area shape="rect" id="node2" href="$classGeant4GM_1_1Isotope.html" title="VGM implementation for Geant4 Isotope." alt="" coords="5,80,140,107"/>
+<area shape="rect" id="node3" href="$classRootGM_1_1Isotope.html" title="VGM implementation for Root isotope." alt="" coords="164,80,283,107"/>
+</map>

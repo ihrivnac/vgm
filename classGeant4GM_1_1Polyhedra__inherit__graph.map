@@ -1,0 +1,6 @@
+<map id="Geant4GM::Polyhedra" name="Geant4GM::Polyhedra">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 polyhedra solid." alt="" coords="9,229,157,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VPolyhedra.html" title="The ABC for polyhedra solids." alt="" coords="5,155,160,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1IPolyhedra.html" title="The VGM interface to polyhedra solids." alt="" coords="23,80,142,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="37,5,128,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Geant4GM::Trap" name="Geant4GM::Trap">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 trap solid." alt="" coords="8,229,125,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VTrap.html" title="The ABC for trap solids." alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ITrap.html" title="The VGM interface to trap solids." alt="" coords="23,80,111,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="21,5,112,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="XmlVGM::VExporter" name="XmlVGM::VExporter">
+<area shape="rect" id="node1" title="Class for generation of geometry data files in XML, the XML format is independent from the geometry o..." alt="" coords="114,5,251,32"/>
+<area shape="rect" id="node2" href="$classXmlVGM_1_1AGDDExporter.html" title="Class for generation of geometry data files in XML, in the AGDD XML format." alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" href="$classXmlVGM_1_1GDMLExporter.html" title="Class for generation of geometry data files in XML, in the GDML format." alt="" coords="195,80,362,107"/>
+</map>

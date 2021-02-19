@@ -1,0 +1,6 @@
+<map id="RootGM::Ctubs" name="RootGM::Ctubs">
+<area shape="rect" id="node1" title="VGM implementation for Root cut tubs solid." alt="" coords="15,229,126,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VCtubs.html" title="The ABC for cut tubs solids." alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ICtubs.html" title="The VGM interface to cut tubs solids." alt="" coords="23,80,119,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="25,5,116,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="RootGM::Placement" name="RootGM::Placement">
+<area shape="rect" id="node1" title="VGM implementation for Root positions of volumes." alt="" coords="15,155,154,181"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VPlacement.html" title="The abstract base class to positions of volumes." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1IPlacement.html" title="The VGM interface to positions of volumes." alt="" coords="23,5,147,32"/>
+</map>

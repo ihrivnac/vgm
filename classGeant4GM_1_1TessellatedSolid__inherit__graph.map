@@ -1,0 +1,6 @@
+<map id="Geant4GM::TessellatedSolid" name="Geant4GM::TessellatedSolid">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 tessellated solid." alt="" coords="9,229,195,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VTessellatedSolid.html" title="The ABC for tessellated solid." alt="" coords="5,155,199,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ITessellatedSolid.html" title="The VGM interface to extruded solids." alt="" coords="23,80,181,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="57,5,147,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="BaseVGM::VMultiUnion" name="BaseVGM::VMultiUnion">
+<area shape="rect" id="node1" title="The ABC for Boolean solids." alt="" coords="88,155,247,181"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1MultiUnion.html" title="VGM implementation for Geant4 Boolean solid." alt="" coords="5,229,159,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1MultiUnion.html" title="VGM implementation for Root Boolean solid." alt="" coords="183,229,322,256"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IMultiUnion.html" title="The VGM interface to Boolean solids." alt="" coords="105,80,229,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="122,5,213,32"/>
+</map>

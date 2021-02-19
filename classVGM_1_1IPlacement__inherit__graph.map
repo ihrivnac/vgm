@@ -1,0 +1,6 @@
+<map id="VGM::IPlacement" name="VGM::IPlacement">
+<area shape="rect" id="node1" title="The VGM interface to positions of volumes." alt="" coords="105,5,229,32"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VPlacement.html" title="The abstract base class to positions of volumes." alt="" coords="88,80,247,107"/>
+<area shape="rect" id="node3" href="$classGeant4GM_1_1Placement.html" title="VGM implementation for Geant4 positions of volumes." alt="" coords="5,155,159,181"/>
+<area shape="rect" id="node4" href="$classRootGM_1_1Placement.html" title="VGM implementation for Root positions of volumes." alt="" coords="183,155,322,181"/>
+</map>

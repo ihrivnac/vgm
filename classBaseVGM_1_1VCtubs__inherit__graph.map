@@ -1,0 +1,7 @@
+<map id="BaseVGM::VCtubs" name="BaseVGM::VCtubs">
+<area shape="rect" id="node1" title="The ABC for cut tubs solids." alt="" coords="73,155,204,181"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Ctubs.html" title="VGM implementation for cut tubs solid in Geant4." alt="" coords="5,229,131,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Ctubs.html" title="VGM implementation for Root cut tubs solid." alt="" coords="155,229,266,256"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ICtubs.html" title="The VGM interface to cut tubs solids." alt="" coords="91,80,187,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="93,5,184,32"/>
+</map>

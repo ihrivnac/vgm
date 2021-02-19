@@ -1,0 +1,4 @@
+<map id="RootGM::ElementNonGeo" name="RootGM::ElementNonGeo">
+<area shape="rect" id="node1" title="VGM implementation for Root element which is not represented via TGeoElement object in Root geometry." alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IElement.html" title="The VGM interface to elements." alt="" coords="36,5,145,32"/>
+</map>

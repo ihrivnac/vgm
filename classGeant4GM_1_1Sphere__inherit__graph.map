@@ -1,0 +1,6 @@
+<map id="Geant4GM::Sphere" name="Geant4GM::Sphere">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 sphere solid." alt="" coords="9,229,141,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VSphere.html" title="The ABC for sphere solids." alt="" coords="5,155,144,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ISphere.html" title="The VGM interface to sphere solids." alt="" coords="23,80,126,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="29,5,120,32"/>
+</map>

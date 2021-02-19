@@ -1,0 +1,5 @@
+<map id="VGM::IMaterial" name="VGM::IMaterial">
+<area shape="rect" id="node1" title="The VGM interface to materials." alt="" coords="97,5,205,32"/>
+<area shape="rect" id="node2" href="$classGeant4GM_1_1Material.html" title="VGM implementation for Geant4 material." alt="" coords="5,80,143,107"/>
+<area shape="rect" id="node3" href="$classRootGM_1_1Material.html" title="VGM implementation for Root material." alt="" coords="167,80,290,107"/>
+</map>

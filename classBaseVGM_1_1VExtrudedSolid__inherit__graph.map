@@ -1,0 +1,7 @@
+<map id="BaseVGM::VExtrudedSolid" name="BaseVGM::VExtrudedSolid">
+<area shape="rect" id="node1" title="The ABC for xtru solids." alt="" coords="96,155,272,181"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1ExtrudedSolid.html" title="VGM implementation for Geant4 xtru solid." alt="" coords="5,229,176,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1ExtrudedSolid.html" title="VGM implementation for Root extruded solid." alt="" coords="200,229,355,256"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IExtrudedSolid.html" title="The VGM interface to extruded solids." alt="" coords="113,80,255,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="139,5,229,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="BaseVGM::VEllipticalTube" name="BaseVGM::VEllipticalTube">
+<area shape="rect" id="node1" title="The ABC for elliptical tube solids." alt="" coords="94,155,269,181"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1EllipticalTube.html" title="VGM implementation for Geant4 elliptical tube solid." alt="" coords="5,229,173,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1EllipticalTube.html" title="VGM implementation for Root elliptical tube solid." alt="" coords="198,229,351,256"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IEllipticalTube.html" title="The VGM interface to elliptical tube solids." alt="" coords="112,80,251,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="136,5,227,32"/>
+</map>

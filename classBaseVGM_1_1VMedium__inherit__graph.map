@@ -1,0 +1,6 @@
+<map id="BaseVGM::VMedium" name="BaseVGM::VMedium">
+<area shape="rect" id="node1" title="The ABC for tracking medium." alt="" coords="80,80,223,107"/>
+<area shape="rect" id="node3" href="$classGeant4GM_1_1Medium.html" title="The VGM implementation of interface to tracking medium." alt="" coords="5,155,143,181"/>
+<area shape="rect" id="node4" href="$classRootGM_1_1Medium.html" title="VGM implementation for Root medium." alt="" coords="167,155,290,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IMedium.html" title="The VGM interface to tracking medium." alt="" coords="97,5,205,32"/>
+</map>

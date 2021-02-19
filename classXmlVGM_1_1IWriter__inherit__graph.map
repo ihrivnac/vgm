@@ -1,0 +1,5 @@
+<map id="XmlVGM::IWriter" name="XmlVGM::IWriter">
+<area shape="rect" id="node1" title="The interface for the XML writer that writes VGM geometry objects to XML:" alt="" coords="110,5,229,32"/>
+<area shape="rect" id="node2" href="$classXmlVGM_1_1AGDDWriter.html" title="The implementation of the interface for the XML writer that writes VGM geometry objects to XML define..." alt="" coords="5,80,157,107"/>
+<area shape="rect" id="node3" href="$classXmlVGM_1_1GDMLWriter.html" title="The implementation of the interface for the XML writer that writes VGM geometry objects to XML define..." alt="" coords="182,80,335,107"/>
+</map>

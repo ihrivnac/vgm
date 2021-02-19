@@ -1,0 +1,6 @@
+<map id="RootGM::Tubs" name="RootGM::Tubs">
+<area shape="rect" id="node1" title="VGM implementation for Root tubs solid." alt="" coords="16,229,121,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VTubs.html" title="The ABC for tubs solids." alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ITubs.html" title="The VGM interface to tubs solids." alt="" coords="23,80,114,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="23,5,114,32"/>
+</map>

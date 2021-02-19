@@ -1,0 +1,7 @@
+<map id="VGM::ISphere" name="VGM::ISphere">
+<area shape="rect" id="node1" title="The VGM interface to sphere solids." alt="" coords="95,80,197,107"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VSphere.html" title="The ABC for sphere solids." alt="" coords="77,155,215,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="101,5,191,32"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Sphere.html" title="VGM implementation for Geant4 sphere solid." alt="" coords="5,229,137,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Sphere.html" title="VGM implementation for Root sphere solid." alt="" coords="162,229,279,256"/>
+</map>

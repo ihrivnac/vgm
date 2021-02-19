@@ -1,0 +1,5 @@
+<map id="RootGM::Factory" name="RootGM::Factory">
+<area shape="rect" id="node1" title="VGM factory for Root." alt="" coords="16,155,135,181"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VFactory.html" title="The abstract base class to geometry factory." alt="" coords="5,80,145,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1IFactory.html" title="The VGM interface to geometry factory providing functions for geometry construction and conversions." alt="" coords="23,5,128,32"/>
+</map>

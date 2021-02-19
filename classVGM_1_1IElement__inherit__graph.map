@@ -1,0 +1,6 @@
+<map id="VGM::IElement" name="VGM::IElement">
+<area shape="rect" id="node1" title="The VGM interface to elements." alt="" coords="175,5,284,32"/>
+<area shape="rect" id="node2" href="$classGeant4GM_1_1Element.html" title="VGM implementation for Geant4 element." alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node3" href="$classRootGM_1_1Element.html" title="VGM implementation for Root element using TGeoElement object." alt="" coords="168,80,291,107"/>
+<area shape="rect" id="node4" href="$classRootGM_1_1ElementNonGeo.html" title="VGM implementation for Root element which is not represented via TGeoElement object in Root geometry." alt="" coords="315,80,485,107"/>
+</map>

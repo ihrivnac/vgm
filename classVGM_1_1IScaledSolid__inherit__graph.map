@@ -1,0 +1,7 @@
+<map id="VGM::IScaledSolid" name="VGM::IScaledSolid">
+<area shape="rect" id="node1" title="The VGM interface to Boolean solids." alt="" coords="108,80,239,107"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VScaledSolid.html" title="The ABC for Scaled solids." alt="" coords="90,155,257,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="128,5,219,32"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1ScaledSolid.html" title="VGM implementation for Geant4 Scaled solid." alt="" coords="5,229,165,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1ScaledSolid.html" title="VGM implementation for Root Scaled solid." alt="" coords="190,229,335,256"/>
+</map>

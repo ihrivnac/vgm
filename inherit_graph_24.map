@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classVGM_1_1IPlacement.html" title="The VGM interface to positions of volumes." alt="" coords="5,31,129,57"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VPlacement.html" title="The abstract base class to positions of volumes." alt="" coords="177,31,336,57"/>
+<area shape="rect" id="node3" href="$classGeant4GM_1_1Placement.html" title="VGM implementation for Geant4 positions of volumes." alt="" coords="384,5,537,32"/>
+<area shape="rect" id="node4" href="$classRootGM_1_1Placement.html" title="VGM implementation for Root positions of volumes." alt="" coords="391,56,530,83"/>
+</map>

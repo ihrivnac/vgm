@@ -1,0 +1,6 @@
+<map id="RootGM::Torus" name="RootGM::Torus">
+<area shape="rect" id="node1" title="VGM implementation for Root torus solid." alt="" coords="16,229,125,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VTorus.html" title="The ABC for torus solids." alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ITorus.html" title="The VGM interface to torus solids." alt="" coords="23,80,118,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="25,5,116,32"/>
+</map>

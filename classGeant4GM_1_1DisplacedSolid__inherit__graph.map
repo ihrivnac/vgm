@@ -1,0 +1,6 @@
+<map id="Geant4GM::DisplacedSolid" name="Geant4GM::DisplacedSolid">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 displaced solid." alt="" coords="8,229,185,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VDisplacedSolid.html" title="The ABC for displaced solids." alt="" coords="5,155,188,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1IDisplacedSolid.html" title="The VGM interface to displaced solids." alt="" coords="23,80,171,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="51,5,142,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="VGM::ITrap" name="VGM::ITrap">
+<area shape="rect" id="node1" title="The VGM interface to trap solids." alt="" coords="87,80,175,107"/>
+<area shape="rect" id="node3" href="$classBaseVGM_1_1VTrap.html" title="The ABC for trap solids." alt="" coords="69,155,192,181"/>
+<area shape="rect" id="node2" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="85,5,176,32"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Trap.html" title="VGM implementation for Geant4 trap solid." alt="" coords="5,229,123,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Trap.html" title="VGM implementation for Root trap solid." alt="" coords="147,229,250,256"/>
+</map>

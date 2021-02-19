@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classVGM_1_1IMaterialFactory.html" title="The VGM interface to material factory providing functions for material conversions." alt="" coords="5,31,156,57"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VMaterialFactory.html" title="The abstract base class to material factory." alt="" coords="204,31,391,57"/>
+<area shape="rect" id="node3" href="$classGeant4GM_1_1MaterialFactory.html" title="VGM material factory for Geant4." alt="" coords="439,5,619,32"/>
+<area shape="rect" id="node4" href="$classRootGM_1_1MaterialFactory.html" title="VGM material factory for Root." alt="" coords="446,56,611,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="RootGM::Trd" name="RootGM::Trd">
+<area shape="rect" id="node1" title="VGM implementation for Root trd solid." alt="" coords="16,229,111,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VTrd.html" title="The ABC for trd solids." alt="" coords="5,155,121,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ITrd.html" title="The VGM interface to trd solids." alt="" coords="23,80,104,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="18,5,109,32"/>
+</map>

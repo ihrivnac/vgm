@@ -1,0 +1,6 @@
+<map id="Geant4GM::BooleanSolid" name="Geant4GM::BooleanSolid">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 Boolean solid." alt="" coords="9,229,175,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VBooleanSolid.html" title="The ABC for Boolean solids." alt="" coords="5,155,179,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1IBooleanSolid.html" title="The VGM interface to Boolean solids." alt="" coords="23,80,161,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="47,5,137,32"/>
+</map>

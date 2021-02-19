@@ -1,0 +1,7 @@
+<map id="BaseVGM::VPolycone" name="BaseVGM::VPolycone">
+<area shape="rect" id="node1" title="The ABC for polycone solids." alt="" coords="82,155,233,181"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Polycone.html" title="VGM implementation for Geant4 polycone solid." alt="" coords="5,229,149,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Polycone.html" title="VGM implementation for Root polycone solid." alt="" coords="174,229,303,256"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IPolycone.html" title="The VGM interface to polycone solids." alt="" coords="100,80,215,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="112,5,203,32"/>
+</map>

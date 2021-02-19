@@ -1,0 +1,7 @@
+<map id="BaseVGM::VArb8" name="BaseVGM::VArb8">
+<area shape="rect" id="node1" title="The ABC for Arb8 solids." alt="" coords="69,155,193,181"/>
+<area shape="rect" id="node4" href="$classGeant4GM_1_1Arb8.html" title="VGM implementation for Geant4 Arb8 solid, the shape is implemented using G4TessellatedSolid." alt="" coords="5,229,124,256"/>
+<area shape="rect" id="node5" href="$classRootGM_1_1Arb8.html" title="VGM implementation for Root Arb8 solid." alt="" coords="148,229,251,256"/>
+<area shape="rect" id="node2" href="$classVGM_1_1IArb8.html" title="The VGM interface to Arb8 solids." alt="" coords="87,80,176,107"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="86,5,177,32"/>
+</map>

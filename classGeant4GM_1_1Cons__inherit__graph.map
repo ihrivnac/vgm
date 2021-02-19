@@ -1,0 +1,6 @@
+<map id="Geant4GM::Cons" name="Geant4GM::Cons">
+<area shape="rect" id="node1" title="VGM implementation for Geant4 cons solid." alt="" coords="8,229,129,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VCons.html" title="The ABC for cons solids." alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1ICons.html" title="The VGM interface to cons solids." alt="" coords="23,80,115,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="23,5,114,32"/>
+</map>

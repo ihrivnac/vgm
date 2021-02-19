@@ -1,0 +1,6 @@
+<map id="RootGM::ScaledSolid" name="RootGM::ScaledSolid">
+<area shape="rect" id="node1" title="VGM implementation for Root Scaled solid." alt="" coords="16,229,161,256"/>
+<area shape="rect" id="node2" href="$classBaseVGM_1_1VScaledSolid.html" title="The ABC for Scaled solids." alt="" coords="5,155,172,181"/>
+<area shape="rect" id="node3" href="$classVGM_1_1IScaledSolid.html" title="The VGM interface to Boolean solids." alt="" coords="23,80,154,107"/>
+<area shape="rect" id="node4" href="$classVGM_1_1ISolid.html" title="The VGM interface to solids." alt="" coords="43,5,134,32"/>
+</map>
