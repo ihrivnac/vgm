@@ -16,7 +16,6 @@ Geant4 geometry will be defined via Geant4
                              WWW : http://geant4.org/
 **************************************************************
 
-Tessellated position: 7000, 1500, 1000
 TestScaledSolids finished
 Go to Import
 VGM info:   Geant4GM::Factory::Import started ...
@@ -471,75 +470,6 @@ VGM info:      Imported solid: Scaled  "paraboloidS"    Constituent = Paraboloid
   Scale (object):  ( 0.8,  0.5,  0.25) 
 
 VGM info:   ImportDaughters for paraboloid_refl
-VGM info:   Importing LV: tessellated
-VGM info:   Importing solid: tessellatedS
-VGM info:   Importing solid: tessellatedS
-VGM info:      Imported solid: Scaled  "tessellatedS"    Constituent = Tessellated  "tessellatedS"
-5 facets:
-Facet #0: 
-   3 vertices:
-     (-500, -500, 0) mm
-     (500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #1: 
-   3 vertices:
-     (500, -500, 0) mm
-     (500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #2: 
-   3 vertices:
-     (500, 500, 0) mm
-     (-500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #3: 
-   3 vertices:
-     (-500, 500, 0) mm
-     (-500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #4: 
-   4 vertices:
-     (-500, -500, 0) mm
-     (-500, 500, 0) mm
-     (500, 500, 0) mm
-     (500, -500, 0) mm
-
-  Scale (object):  ( 0.8,  0.5,  0.25) 
-
-VGM info:   ImportDaughters for tessellated
-VGM info:   Importing LV: tessellated_refl
-VGM info:   Importing solid: tessellatedS_refl
-VGM info:      Imported solid: Scaled  "tessellatedS"    Constituent = Tessellated  "tessellatedS"
-5 facets:
-Facet #0: 
-   3 vertices:
-     (-500, -500, 0) mm
-     (500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #1: 
-   3 vertices:
-     (500, -500, 0) mm
-     (500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #2: 
-   3 vertices:
-     (500, 500, 0) mm
-     (-500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #3: 
-   3 vertices:
-     (-500, 500, 0) mm
-     (-500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #4: 
-   4 vertices:
-     (-500, -500, 0) mm
-     (-500, 500, 0) mm
-     (500, 500, 0) mm
-     (500, -500, 0) mm
-
-  Scale (object):  ( 0.8,  0.5,  0.25) 
-
-VGM info:   ImportDaughters for tessellated_refl
 VGM info:   Import positions: 
 VGM info:   0th volume: world  
 VGM info:      0th daughter  pv = box  lv = box vgmPl = box vgmVol = box
@@ -574,8 +504,6 @@ VGM info:      28th daughter  pv = hype  lv = hype vgmPl = hype vgmVol = hype
 VGM info:      29th daughter  pv = hype  lv = hype_refl vgmPl = hype vgmVol = hype_refl
 VGM info:      30th daughter  pv = paraboloid  lv = paraboloid vgmPl = paraboloid vgmVol = paraboloid
 VGM info:      31th daughter  pv = paraboloid  lv = paraboloid_refl vgmPl = paraboloid vgmVol = paraboloid_refl
-VGM info:      32th daughter  pv = tessellated  lv = tessellated vgmPl = tessellated vgmVol = tessellated
-VGM info:      33th daughter  pv = tesselled  lv = tessellated_refl vgmPl = tesselled vgmVol = tessellated_refl
 VGM info:   1th volume: box  
 VGM info:   2th volume: box_refl  
 VGM info:   3th volume: cons  
@@ -608,8 +536,6 @@ VGM info:   29th volume: hype
 VGM info:   30th volume: hype_refl  
 VGM info:   31th volume: paraboloid  
 VGM info:   32th volume: paraboloid_refl  
-VGM info:   33th volume: tessellated  
-VGM info:   34th volume: tessellated_refl  
 VGM info:   
 Geant4_GM_Factory factory solids store: 
    0th solid: Box  "worldS"  hx = 8000mm  hy = 3000mm  hz = 3000mm
@@ -808,99 +734,8 @@ Planes:
    49th solid: Scaled  "paraboloidS"    Constituent = Paraboloid  "paraboloidS"  r1 = 200mm  r2 = 450mm  hz = 500mm
   Scale (object):  ( 0.8,  0.5,  0.25) 
 
-   50th solid: Tessellated  "tessellatedS"
-5 facets:
-Facet #0: 
-   3 vertices:
-     (-500, -500, 0) mm
-     (500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #1: 
-   3 vertices:
-     (500, -500, 0) mm
-     (500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #2: 
-   3 vertices:
-     (500, 500, 0) mm
-     (-500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #3: 
-   3 vertices:
-     (-500, 500, 0) mm
-     (-500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #4: 
-   4 vertices:
-     (-500, -500, 0) mm
-     (-500, 500, 0) mm
-     (500, 500, 0) mm
-     (500, -500, 0) mm
-
-   51th solid: Scaled  "tessellatedS"    Constituent = Tessellated  "tessellatedS"
-5 facets:
-Facet #0: 
-   3 vertices:
-     (-500, -500, 0) mm
-     (500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #1: 
-   3 vertices:
-     (500, -500, 0) mm
-     (500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #2: 
-   3 vertices:
-     (500, 500, 0) mm
-     (-500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #3: 
-   3 vertices:
-     (-500, 500, 0) mm
-     (-500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #4: 
-   4 vertices:
-     (-500, -500, 0) mm
-     (-500, 500, 0) mm
-     (500, 500, 0) mm
-     (500, -500, 0) mm
-
-  Scale (object):  ( 0.8,  0.5,  0.25) 
-
-   52th solid: Scaled  "tessellatedS"    Constituent = Tessellated  "tessellatedS"
-5 facets:
-Facet #0: 
-   3 vertices:
-     (-500, -500, 0) mm
-     (500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #1: 
-   3 vertices:
-     (500, -500, 0) mm
-     (500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #2: 
-   3 vertices:
-     (500, 500, 0) mm
-     (-500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #3: 
-   3 vertices:
-     (-500, 500, 0) mm
-     (-500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #4: 
-   4 vertices:
-     (-500, -500, 0) mm
-     (-500, 500, 0) mm
-     (500, 500, 0) mm
-     (500, -500, 0) mm
-
-  Scale (object):  ( 0.8,  0.5,  0.25) 
-
 Geant4_GM_Factory factory volumes store: 
-   0th: Volume: "world" material "Basic" solid "Box"  34 daughters: "box"  "box"  "cons"  "cons"  "eltu"  "eltu"  "para"  "para"  "pcone"  "pcone"  "phedra"  "phedra"  "sphere"  "sphere"  "torus"  "torus"  "trap"  "trap"  "trd"  "trd"  "tubs"  "tubs"  "ctubs"  "ctubs"  "xtru1"  "xtru1"  "xtru2"  "xtru2"  "hype"  "hype"  "paraboloid"  "paraboloid"  "tessellated"  "tesselled"  
+   0th: Volume: "world" material "Basic" solid "Box"  32 daughters: "box"  "box"  "cons"  "cons"  "eltu"  "eltu"  "para"  "para"  "pcone"  "pcone"  "phedra"  "phedra"  "sphere"  "sphere"  "torus"  "torus"  "trap"  "trap"  "trd"  "trd"  "tubs"  "tubs"  "ctubs"  "ctubs"  "xtru1"  "xtru1"  "xtru2"  "xtru2"  "hype"  "hype"  "paraboloid"  "paraboloid"  
    1th: Volume: "box" material "Basic" solid "Scaled"  0 daughters: 
    2th: Volume: "box_refl" material "Basic" solid "Scaled"  0 daughters: 
    3th: Volume: "cons" material "Basic" solid "Scaled"  0 daughters: 
@@ -933,8 +768,6 @@ Geant4_GM_Factory factory volumes store:
    30th: Volume: "hype_refl" material "Basic" solid "Scaled"  0 daughters: 
    31th: Volume: "paraboloid" material "Basic" solid "Scaled"  0 daughters: 
    32th: Volume: "paraboloid_refl" material "Basic" solid "Scaled"  0 daughters: 
-   33th: Volume: "tessellated" material "Basic" solid "Scaled"  0 daughters: 
-   34th: Volume: "tessellated_refl" material "Basic" solid "Scaled"  0 daughters: 
 VGM info:   Geant4GM::Factory::Import finished.
 Import finished
 Visualization Manager instantiating with verbosity "warnings (3)"...
