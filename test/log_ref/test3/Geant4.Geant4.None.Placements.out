@@ -8772,7 +8772,7 @@ Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolu
 Step#    X(mm)    Y(mm)    Z(mm) KinE(MeV)  dE(MeV) StepLeng TrackLeng  NextVolume ProcName
     0 -2.28e+03      382 5.27e+03         1        0        0         0       world initStep
     1 -3.29e+03   -1e+03 4.29e+03         1        0 1.97e+03  1.97e+03  OutOfWorld Transportation
-number of event = 1000 User=0.010000s Real=0.021262s Sys=0.010000s
-Execution time: R: 0.0213 s  C: 0.0213 s 
+number of event = 1000 User=0.010000s Real=0.028937s Sys=0.010000s
+Execution time: R: 0.0289 s  C: 0.0289 s 
 Graphics systems deleted.
 Visualization Manager deleting...

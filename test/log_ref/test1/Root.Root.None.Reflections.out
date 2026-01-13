@@ -21,7 +21,6 @@ Root geometry will be defined via Root
 
 Info in <TGeoManager::SetTopVolume>: Top volume is world. Master volume is world
 Info in <TGeoNavigator::BuildCache>: --- Maximum geometry depth set to 100
-Tessellated position: 700, 150, 100
 TestReflections finished
 Go to Import
 Info in <TGeoManager::Export>: Exporting Test Test geometry via Root as root file. Optimizations streamed.
@@ -168,38 +167,6 @@ VGM info:   Importing volume: paraboloid
 VGM info:   Importing shape: paraboloidS
 VGM info:      Imported solid: Paraboloid  "paraboloidS"  r1 = 200mm  r2 = 450mm  hz = 500mm
 VGM info:   ImportDaughters for paraboloid
-VGM info:   Importing volume: tessellated
-VGM info:   Importing shape: tessellatedS
-VGM info:      Imported solid: Tessellated  "tessellatedS"
-5 facets:
-Facet #0: 
-   3 vertices:
-     (-500, -500, 0) mm
-     (500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #1: 
-   3 vertices:
-     (500, -500, 0) mm
-     (500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #2: 
-   3 vertices:
-     (500, 500, 0) mm
-     (-500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #3: 
-   3 vertices:
-     (-500, 500, 0) mm
-     (-500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #4: 
-   4 vertices:
-     (-500, -500, 0) mm
-     (-500, 500, 0) mm
-     (500, 500, 0) mm
-     (500, -500, 0) mm
-
-VGM info:   ImportDaughters for tessellated
 VGM info:   Import positions: 
 VGM info:   0th volume: world  
 VGM info:      0th daughter  rtNode = box_0  rtVol = box vgmPl = box vgmVol = box
@@ -234,8 +201,6 @@ VGM info:      28th daughter  rtNode = hype_0  rtVol = hype vgmPl = hype vgmVol 
 VGM info:      29th daughter  rtNode = hype_1  rtVol = hype vgmPl = hype vgmVol = hype
 VGM info:      30th daughter  rtNode = paraboloid_0  rtVol = paraboloid vgmPl = paraboloid vgmVol = paraboloid
 VGM info:      31th daughter  rtNode = paraboloid_1  rtVol = paraboloid vgmPl = paraboloid vgmVol = paraboloid
-VGM info:      32th daughter  rtNode = tessellated_0  rtVol = tessellated vgmPl = tessellated vgmVol = tessellated
-VGM info:      33th daughter  rtNode = tessellated_1  rtVol = tessellated vgmPl = tessellated vgmVol = tessellated
 VGM info:   1th volume: box  
 VGM info:   2th volume: cons  
 VGM info:   3th volume: eltu  
@@ -252,7 +217,6 @@ VGM info:   13th volume: xtru1
 VGM info:   14th volume: xtru2  
 VGM info:   15th volume: hype  
 VGM info:   16th volume: paraboloid  
-VGM info:   17th volume: tessellated  
 VGM info:   
 Root_GM_Factory factory solids store: 
    0th solid: Box  "worldS"  hx = 8000mm  hy = 3000mm  hz = 3000mm
@@ -294,37 +258,8 @@ Planes:
 
    15th solid: Hype  "hypeS"  r1 = 200mm  stereo1 = 30deg  r2 = 300mm  stereo1 = 40deg  hz = 500mm
    16th solid: Paraboloid  "paraboloidS"  r1 = 200mm  r2 = 450mm  hz = 500mm
-   17th solid: Tessellated  "tessellatedS"
-5 facets:
-Facet #0: 
-   3 vertices:
-     (-500, -500, 0) mm
-     (500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #1: 
-   3 vertices:
-     (500, -500, 0) mm
-     (500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #2: 
-   3 vertices:
-     (500, 500, 0) mm
-     (-500, 500, 0) mm
-     (0, 0, 500) mm
-Facet #3: 
-   3 vertices:
-     (-500, 500, 0) mm
-     (-500, -500, 0) mm
-     (0, 0, 500) mm
-Facet #4: 
-   4 vertices:
-     (-500, -500, 0) mm
-     (-500, 500, 0) mm
-     (500, 500, 0) mm
-     (500, -500, 0) mm
-
 Root_GM_Factory factory volumes store: 
-   0th: Volume: "world" material "Basic" solid "Box"  34 daughters: "box"  "box"  "cons"  "cons"  "eltu"  "eltu"  "para"  "para"  "pcone"  "pcone"  "phedra"  "phedra"  "sphere"  "sphere"  "torus"  "torus"  "trap"  "trap"  "trd"  "trd"  "tubs"  "tubs"  "ctubs"  "ctubs"  "xtru1"  "xtru1"  "xtru2"  "xtru2"  "hype"  "hype"  "paraboloid"  "paraboloid"  "tessellated"  "tessellated"  
+   0th: Volume: "world" material "Basic" solid "Box"  32 daughters: "box"  "box"  "cons"  "cons"  "eltu"  "eltu"  "para"  "para"  "pcone"  "pcone"  "phedra"  "phedra"  "sphere"  "sphere"  "torus"  "torus"  "trap"  "trap"  "trd"  "trd"  "tubs"  "tubs"  "ctubs"  "ctubs"  "xtru1"  "xtru1"  "xtru2"  "xtru2"  "hype"  "hype"  "paraboloid"  "paraboloid"  
    1th: Volume: "box" material "Basic" solid "Box"  0 daughters: 
    2th: Volume: "cons" material "Basic" solid "Cons"  0 daughters: 
    3th: Volume: "eltu" material "Basic" solid "Eltu"  0 daughters: 
@@ -341,7 +276,6 @@ Root_GM_Factory factory volumes store:
    14th: Volume: "xtru2" material "Basic" solid "Extruded"  0 daughters: 
    15th: Volume: "hype" material "Basic" solid "Hype"  0 daughters: 
    16th: Volume: "paraboloid" material "Basic" solid "Paraboloid"  0 daughters: 
-   17th: Volume: "tessellated" material "Basic" solid "Tessellated"  0 daughters: 
 VGM info:   RootGM::Factory::Import finished.
 Import finished
 Go to save Root geometry
@@ -350,8 +284,8 @@ Info in <TGeoManager::CheckGeometry>: ...Nothing to fix
 Info in <TGeoManager::CloseGeometry>: Counting nodes...
 Info in <TGeoManager::Voxelize>: Voxelizing...
 Info in <TGeoManager::CloseGeometry>: Building cache...
-Info in <TGeoManager::CountLevels>: max level = 1, max placements = 34
-Info in <TGeoManager::CloseGeometry>: 35 nodes/ 18 volume UID's in Test geometry via Root
+Info in <TGeoManager::CountLevels>: max level = 1, max placements = 32
+Info in <TGeoManager::CloseGeometry>: 33 nodes/ 17 volume UID's in Test geometry via Root
 Info in <TGeoManager::CloseGeometry>: ----------------modeler ready----------------
 Info in <TGeoManager::Export>: Exporting Test Test geometry via Root as root file. Optimizations streamed.
 No Geant4 geometry is built.
