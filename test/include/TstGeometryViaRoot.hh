@@ -36,14 +36,14 @@ class TstGeometryViaRoot : public TstVGeometry
 
   virtual void DefineMaterials();
 
-  virtual void* TestSolids(Bool_t fullPhi);
+  virtual void* TestSolids(Bool_t fullPhi, Bool_t tessellated);
   virtual void* TestExtraSolid(VGM::SolidType solidType);
   virtual void* TestNewSolid();
   virtual void* TestNewSolid2();
   virtual void* TestPlacements();
   virtual void* TestPlacements2(Bool_t bestMatch);
-  virtual void* TestReflections(Bool_t fullPhi);
-  virtual void* TestScaledSolids(Bool_t fullPhi);
+  virtual void* TestReflections(Bool_t fullPhi, Bool_t tessellated);
+  virtual void* TestScaledSolids(Bool_t fullPhi, Bool_t tessellated);
   virtual void* TestAssemblies();
   virtual void* TestAssemblies2();
   virtual void* TestBooleanSolids1();
@@ -80,8 +80,8 @@ class TstGeometryViaRoot : public TstVGeometry
   TGeoShape* CreateTubs(Double_t sphi, Double_t dphi);
   TGeoShape* CreateCtubs(Double_t sphi, Double_t dphi);
   TGeoVolume* CreateVolume(TGeoShape* shape, TGeoScale* scale3D = 0);
-  TGeoVolume* PlaceSolids(TGeoVolume* mother, Bool_t fullPhi, Bool_t reflect,
-    Bool_t scale, Double_t zpos);
+  TGeoVolume* PlaceSolids(TGeoVolume* mother, Bool_t fullPhi,
+    Bool_t tesselated, Bool_t reflect, Bool_t scale, Double_t zpos);
   void PlaceSolids(const std::vector<TGeoVolume*>& volumes, TGeoVolume* mother);
   void PlaceExtraSolid(VGM::SolidType solidType, TGeoVolume* mother);
 

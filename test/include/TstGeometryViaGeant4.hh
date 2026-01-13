@@ -32,15 +32,15 @@ class TstGeometryViaGeant4 : public TstVGeometry
 
   virtual void DefineMaterials();
 
-  virtual void* TestSolids(G4bool fullPhi);
+  virtual void* TestSolids(G4bool fullPhi, G4bool tessellated);
   virtual void* TestExtraSolid(VGM::SolidType solidType);
   virtual void* TestNewSolid();
   virtual void* TestNewSolid2();
   virtual void* TestPlacements();
   virtual void* TestPlacements2(G4bool bestMatch);
   virtual void* TestPlacements3();
-  virtual void* TestReflections(G4bool fullPhi);
-  virtual void* TestScaledSolids(G4bool fullPhi);
+  virtual void* TestReflections(G4bool fullPhi, G4bool tessellated);
+  virtual void* TestScaledSolids(G4bool fullPhi, G4bool tessellated);
   virtual void* TestAssemblies();
   virtual void* TestAssemblies2();
   virtual void* TestBooleanSolids1();
@@ -74,7 +74,7 @@ class TstGeometryViaGeant4 : public TstVGeometry
   G4VSolid* CreateCtubs(G4double sphi, G4double dphi);
   G4LogicalVolume* CreateVolume(G4VSolid* solid, G4bool scale = false);
   G4LogicalVolume* PlaceSolids(G4LogicalVolume* mother, G4bool fullPhi,
-    G4bool reflect, G4bool scale, G4double zpos);
+    G4bool tessellated, G4bool reflect, G4bool scale, G4double zpos);
   void PlaceExtraSolid(VGM::SolidType solidType, G4LogicalVolume* mother);
 
   // data members

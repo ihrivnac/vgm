@@ -30,9 +30,12 @@
 //         bestMatch     = if specified the factories operate in bestMatch mode
 //         openAngle     = if specified, solids like tubs, cons etc. are built
 //                         with open azimuthal angle
+//         tessellated   = activates tessellated solid in Solids, Reflections
+//                         and ScaledSolids tests
 //         noVis         = no visualisation
 //         run           = run with the generator defined in
-//         macro/den_selectedTest.mac rootNavig     = use navigation via G4Root
+//                         macro/gen_selectedTest.mac
+//         rootNavig     = use navigation via G4Root
 //         singleMode    = activate single mode conversion
 //                         (only convert solids from built geometry one by one)
 //
@@ -102,6 +105,9 @@ int main(int argc, char** argv)
     std::cerr << "          openAngle     = if specified, solids like tubs, "
                  "cons etc. are built"
               << std::endl;
+    std::cerr << "tessellated             = activates tessellated solid in"
+                 " Solids , Reflections and ScaledSolids tests"
+              << std::endl;
     std::cerr << "                          with open azimuthal angle"
               << std::endl;
     std::cerr << "          noVis         = no visualisation" << std::endl;
@@ -133,6 +139,7 @@ int main(int argc, char** argv)
   G4bool ignoreMode = false;
   G4bool bestMatchMode = false;
   G4bool fullAngle = true;
+  G4bool tessellated = false;
   G4String visMode = outputFactory;
   if (outputFactory == "None") visMode = inputFactory;
   G4bool run = false;
@@ -149,6 +156,8 @@ int main(int argc, char** argv)
         bestMatchMode = true;
       else if (G4String(argv[i]) == "openAngle")
         fullAngle = false;
+      else if (G4String(argv[i]) == "tessellated")
+        tessellated = false;
       else if (G4String(argv[i]) == "noVis")
         visMode = "None";
       else if (G4String(argv[i]) == "run")
@@ -178,6 +187,7 @@ int main(int argc, char** argv)
   detector->SetDebug(debugMode);
   detector->SetIgnore(ignoreMode);
   detector->SetBestMatch(bestMatchMode);
+  detector->SetTessellated(tessellated);
   detector->SetSingleMode(singleMode);
   detector->SelectTest(selectedTest, fullAngle);
   detector->SelectVisualization(visMode);

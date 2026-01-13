@@ -49,6 +49,7 @@ TstDetectorConstruction::TstDetectorConstruction(const G4String& inputType,
     fSelectedTest("Solids"),
     fSelectedVisMode("Geant4"),
     fFullAngle(true),
+    fTessellated(false),
     fBestMatchMode(false),
     fSingleMode(false),
     fInputFactory(0),
@@ -96,7 +97,7 @@ G4VPhysicalVolume* TstDetectorConstruction::Construct()
   //
   void* world = 0;
   if (fSelectedTest == "Solids") {
-    world = fGeometry->TestSolids(fFullAngle);
+    world = fGeometry->TestSolids(fFullAngle, fTessellated);
     std::cout << "TestSolids finished" << std::endl;
   }
   else if (fSelectedTest == "NewSolid") {
@@ -126,7 +127,7 @@ G4VPhysicalVolume* TstDetectorConstruction::Construct()
     std::cout << "TestPlacements finished" << std::endl;
   }
   else if (fSelectedTest == "Reflections") {
-    world = fGeometry->TestReflections(fFullAngle);
+    world = fGeometry->TestReflections(fFullAngle, fTessellated);
     std::cout << "TestReflections finished" << std::endl;
   }
   else if (fSelectedTest == "Assemblies1") {
@@ -166,7 +167,7 @@ G4VPhysicalVolume* TstDetectorConstruction::Construct()
     std::cout << "TestBooleanSolids7 finished" << std::endl;
   }
   else if (fSelectedTest == "ScaledSolids") {
-    world = fGeometry->TestScaledSolids();
+    world = fGeometry->TestScaledSolids(fFullAngle, fTessellated);
     std::cout << "TestScaledSolids finished" << std::endl;
   }
   else if (fSelectedTest == "DisplacedSolids1") {
@@ -408,6 +409,14 @@ void TstDetectorConstruction::SetSingleMode(G4bool singleMode)
   // Set single mode option
 
   fSingleMode = singleMode;
+}
+
+//_____________________________________________________________________________
+void TstDetectorConstruction::SetTessellated(G4bool tessellated)
+{
+  // Set single mode option
+
+  fTessellated = tessellated;
 }
 
 //

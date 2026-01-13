@@ -34,14 +34,14 @@ class TstGeometryViaVGM : public TstVGeometry
 
   virtual void DefineMaterials();
 
-  virtual void* TestSolids(bool fullPhi);
+  virtual void* TestSolids(bool fullPhi, bool tessellated);
   virtual void* TestExtraSolid(VGM::SolidType solidType);
   virtual void* TestNewSolid();
   virtual void* TestNewSolid2();
   virtual void* TestPlacements();
   virtual void* TestPlacements2(bool bestMatch);
-  virtual void* TestReflections(bool fullPhi);
-  virtual void* TestScaledSolids(bool fullPhi);
+  virtual void* TestReflections(bool fullPhi, bool tessellated);
+  virtual void* TestScaledSolids(bool fullPhi, bool tessellated);
   virtual void* TestBooleanSolids1();
   virtual void* TestBooleanSolids2();
   virtual void* TestBooleanSolids3();
@@ -76,7 +76,8 @@ class TstGeometryViaVGM : public TstVGeometry
   VGM::ISolid* CreateCtubs(double sphi, double dphi);
   VGM::IVolume* CreateVolume(VGM::ISolid* solid, bool scale = false);
   void* PlaceSolids(
-    VGM::IVolume* mother, bool fullPhi, bool reflect, bool scale, double zpos);
+    VGM::IVolume* mother, bool fullPhi, bool tessellated, bool reflect,
+    bool scale, double zpos);
   void PlaceSolids(
     const std::vector<VGM::IVolume*>& volumes, VGM::IVolume* mother);
   void PlaceExtraSolid(VGM::SolidType solidType, VGM::IVolume* motherVGM);
