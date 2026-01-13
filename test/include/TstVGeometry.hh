@@ -29,15 +29,15 @@ class TstVGeometry
 
   virtual void DefineMaterials() = 0;
 
-  virtual void* TestSolids(bool fullPhi = true) = 0;
+  virtual void* TestSolids(bool fullPhi, bool tessellated) = 0;
   virtual void* TestExtraSolid(VGM::SolidType solidType) = 0;
   virtual void* TestNewSolid() = 0;
   virtual void* TestNewSolid2() = 0;
   virtual void* TestPlacements() = 0;
   virtual void* TestPlacements2(bool bestMatch = false) = 0;
   virtual void* TestPlacements3();
-  virtual void* TestReflections(bool fullPhi = true) = 0;
-  virtual void* TestScaledSolids(bool fullPhi = true) = 0;
+  virtual void* TestReflections(bool fullPhi, bool tessellated) = 0;
+  virtual void* TestScaledSolids(bool fullPhi, bool tessellated) = 0;
   virtual void* TestAssemblies();
   virtual void* TestAssemblies2();
   virtual void* TestBooleanSolids1() = 0;

@@ -614,7 +614,7 @@ TGeoVolume* TstGeometryViaRoot::CreateVolume(
 
 //_____________________________________________________________________________
 TGeoVolume* TstGeometryViaRoot::PlaceSolids(TGeoVolume* mother, Bool_t fullPhi,
-  Bool_t reflect, Bool_t scale, Double_t zpos)
+  Bool_t tessellated, Bool_t reflect, Bool_t scale, Double_t zpos)
 {
   Double_t sphi = 0.;
   Double_t dphi = 360.;
@@ -799,14 +799,16 @@ TGeoVolume* TstGeometryViaRoot::PlaceSolids(TGeoVolume* mother, Bool_t fullPhi,
 
   // Tessellated
   //
-  TGeoShape* tessellated = CreateTessellatedSolid();
-  TGeoVolume* tessellatedV = CreateVolume(tessellated, scale3D);
-  mother->AddNode(
-    tessellatedV, 0, new TGeoTranslation(x0 + (++counter)*dx, dy, zpos));
-  std::cout << "Tessellated position: " << x0 + counter*dx << ", " << dy << ", " << zpos << std::endl;
-  if (reflect)
-    mother->AddNode(tessellatedV, 1,
-      new TGeoCombiTrans(x0 + (counter)*dx, dy, -zpos, reflect3D));
+  if (tessellated) {
+    TGeoShape* tessellated = CreateTessellatedSolid();
+    TGeoVolume* tessellatedV = CreateVolume(tessellated, scale3D);
+    mother->AddNode(
+      tessellatedV, 0, new TGeoTranslation(x0 + (++counter)*dx, dy, zpos));
+    // std::cout << "Tessellated position: " << x0 + counter*dx << ", " << dy << ", " << zpos << std::endl;
+    if (reflect)
+      mother->AddNode(tessellatedV, 1,
+        new TGeoCombiTrans(x0 + (counter)*dx, dy, -zpos, reflect3D));
+  }
 
   return mother;
 }
@@ -942,11 +944,11 @@ void TstGeometryViaRoot::DefineMaterials()
 }
 
 //_____________________________________________________________________________
-void* TstGeometryViaRoot::TestSolids(Bool_t fullPhi)
+void* TstGeometryViaRoot::TestSolids(Bool_t fullPhi, Bool_t tessellated)
 {
   TGeoVolume* worldV = CreateWorld(800., 300., 200.);
 
-  PlaceSolids(worldV, fullPhi, false, false, 0.);
+  PlaceSolids(worldV, fullPhi, tessellated, false, false, 0.);
 
   return (void*)gGeoManager->GetTopNode();
 }
@@ -1126,23 +1128,23 @@ void* TstGeometryViaRoot::TestPlacements2(Bool_t bestMatch)
 }
 
 //_____________________________________________________________________________
-void* TstGeometryViaRoot::TestReflections(Bool_t fullPhi)
+void* TstGeometryViaRoot::TestReflections(Bool_t fullPhi, Bool_t tessellated)
 {
 
   TGeoVolume* worldV = CreateWorld(800., 300., 300.);
 
-  PlaceSolids(worldV, fullPhi, true, false, 100.);
+  PlaceSolids(worldV, fullPhi, tessellated, true, false, 100.);
 
   return (void*)gGeoManager->GetTopNode();
 }
 
 //_____________________________________________________________________________
-void* TstGeometryViaRoot::TestScaledSolids(Bool_t fullPhi)
+void* TstGeometryViaRoot::TestScaledSolids(Bool_t fullPhi, Bool_t tessellated)
 {
 
   TGeoVolume* worldV = CreateWorld(800., 300., 300.);
 
-  PlaceSolids(worldV, fullPhi, true, true, 100.);
+  PlaceSolids(worldV, fullPhi, tessellated, true, true, 100.);
 
   return (void*)gGeoManager->GetTopNode();
 }

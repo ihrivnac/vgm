@@ -47,6 +47,7 @@ class TstDetectorConstruction : public G4VUserDetectorConstruction
   void SetDebug(G4bool debugMode);
   void SetIgnore(G4bool ignoreMode);
   void SetBestMatch(G4bool bestMatchMode);
+  void SetTessellated(G4bool tesselated);
   void SetSingleMode(G4bool singleMode);
 
  private:
@@ -73,6 +74,7 @@ class TstDetectorConstruction : public G4VUserDetectorConstruction
   G4String fSelectedTest;
   G4String fSelectedVisMode;
   G4bool fFullAngle;
+  G4bool fTessellated;
   G4bool fBestMatchMode;
   G4bool fSingleMode;
   VGM::IFactory* fInputFactory;
